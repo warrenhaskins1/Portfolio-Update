@@ -1,0 +1,65 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+/* background-color: #FCBF49; */
+body {
+  background: linear-gradient(to bottom, rgb(34, 34, 34) 0%, rgba(121, 230, 240, 0) 100%), url("../images/heroBG.png");
+  background-blend-mode: screen;
+  
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.name {
+  font-size: 1.3rem;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.2rem;
+  font-style: oblique;
+  color: #faf9f6;
+}
+
+.midInit {
+  font-size: 30px;
+}
+
+.dot {
+  color: rgb(177, 55, 55);
+}
+
+a {
+  color: #faf9f6;
+}
+
+a:link {
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+ }
+
+a:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.5);
+  background: -webkit-linear-gradient(#eee, rgb(110, 110, 110));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-title {
+  letter-spacing: 0.25rem;
+}
