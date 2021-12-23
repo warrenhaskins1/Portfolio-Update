@@ -3,9 +3,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 /* background-color: #FCBF49; */
 body {
-  background: linear-gradient(to bottom, rgb(34, 34, 34) 0%, rgba(121, 230, 240, 0) 100%), url("../images/heroBG.png");
-  background-blend-mode: screen;
-  
+  background: linear-gradient(to top, rgb(34, 34, 34) 0%, rgba(121, 230, 240, 0) 70%), url(../images/wave2.svg);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -26,13 +24,14 @@ body {
   }
 }
 
-.name {
-  font-size: 1.3rem;
+/* .name {
+  font-size: 2rem;
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.2rem;
   font-style: oblique;
-  color: #faf9f6;
-}
+  color: #3f3d39;
+  text-decoration: underline;
+} */
 
 .midInit {
   font-size: 30px;
@@ -43,7 +42,7 @@ body {
 }
 
 a {
-  color: #faf9f6;
+  color: #57544c;
 }
 
 a:link {
@@ -54,12 +53,41 @@ a:link {
 
 a:hover {
   transition: all .2s ease-in-out;
-  transform: scale(1.5);
-  background: -webkit-linear-gradient(#eee, rgb(110, 110, 110));
+  transform: scale(1.2);
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgba(2, 31, 59, 0.979));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.hero-title {
-  letter-spacing: 0.25rem;
+
+.img-gradient{
+  position:relative;
+  
+}
+
+
+/* 
+#002f4b,#dc4225 
+Convert HEX to RGBA - http://hex2rgba.devoth.com/
+*/
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, rgba(87, 22, 9, 0.5) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(90, 20, 6, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(92, 24, 11, 0.5) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(65, 18, 8, 0.5) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,47,75,0.8) 0%,rgba(63, 17, 7, 0.5) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.front {
+  z-index: 1;
+}
+
+.front p {
+  font-size: 1.2rem;
 }

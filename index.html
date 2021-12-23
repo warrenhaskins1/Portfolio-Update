@@ -13,7 +13,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto+Mono:ital@0;1&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet">
@@ -24,62 +25,77 @@
   <body>
     <div class="container">
       <header class="blog-header py-3">
+
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-4 pt-1">
             <!--put contact info here dropdown-->
-            <div class="dropdown">
-              <a class=" dropdown-toggle link" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Contact
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-
-                <li><a class="dropdown-item" href="mailto:haskinsDevs@gmail.com">Email: haskinsDevs@gmail.com</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="">Phone: 555-555-1234</a></li>
-
-
-              </ul>
-            </div>
+            
+              
           </div>
           <div class="col-4 text-center">
             <!--Name here-->
-            <h5 class="name">Warren <span class="midInit">G<span class="dot">.</span> </span>Haskins</h5>
+            <h1 class="name fst-italic">Warren <span class="midInit">G<span class="dot">.</span> </span>Haskins</h5>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             <!--put icons for linkedin/github here-->
 
-            <img src="./assets/images/108-melod.png" alt="mdo" width="85" height="85"
-              class="rounded-circle d-block">
+            <img src="./assets/images/108-melod.png" alt="mdo" width="85" height="85" class="rounded-circle float-end">
 
           </div>
         </div>
       </header>
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-          <a class="p-2 link" href="#">Projects <i class="fas fa-project-diagram"></i></a>
-          <a class="p-2 link" href="#">Resume <i class="fas fa-address-card"></i></a>
-          <a class="p-2 link" href="#">About <i class="far fa-question-circle"></i></a>
-          <a class="p-2 link" href="#">LinkedIn <i class="fab fa-linkedin"></i></a>
-          <a class="p-2 link" href="#">Github <i class="fab fa-github"></i></a>
+          <a class="p-2 link" href="mailto:haskinsDevs@gmail.com">haskinsDevs@gmail.com <i class="far fa-envelope"></i></a>
+          <a class="p-2 link" href="tel:484-432-9118">484-432-9118 <i class="fas fa-phone-square-alt"></i></a>
+          <a class="p-2 link" href="#">Resume <i class="fas fa-project-diagram"></i></a>
+          
+          
+          <a class="p-2 link" href="#https://www.linkedin.com/in/warren-haskins-a726b2222/">LinkedIn <i
+              class="fab fa-linkedin"></i></a>
+          <a class="p-2 link" href="https://github.com/warrenhaskins1">Github <i class="fab fa-github"></i></a>
         </nav>
       </div>
     </div>
 
     <main class="container">
-      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark hero-title img-fluid">
-        <div class="col-md-6 px-0 ">
-          
+      <!-- <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark hero-title card">
+        <img src="assets/images/heroBG.png" alt="tech-bg">
+        <div class="col-md-6 px-0 card-img-overlay">
           <h1 class="display-4 fst-italic">Front-End UI/UX Development</h1>
-          <p class="lead my-3">Im Warren, a UI/UX designer based out of SEPA. I enjoy creating tools that help users streamline their interface experiences.</p>
+          <p class="lead my-3">Im Warren, a UI/UX designer based out of SEPA. I enjoy creating tools that help users
+            streamline their interface experiences.
+          </p>
+          <p class="lead mb-0"></p>
+        </div>
+      </div> -->
+      <div class="card mb-5 img-gradient">
+        <img src="./assets/images/hero2.jpg" class="card-img" height="300px;"alt="...">
+        <div class="col-md-6 px-0 card-img-overlay front">
+          <h1 class="display-3 fst-italic text-white m-4">Front-End UI/UX Development</h1>
+          <p class="lead m-3 text-white">Hi, I'm Warren, a UI/UX designer based out of SEPA. I enjoy creating tools and layouts that help users
+            streamline their interface experiences.
+          </p>
           <p class="lead mb-0"></p>
         </div>
       </div>
 
       <div class="row mb-2">
-        <div class="col-md-6">
+        <div class="card m-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/images/schedulerScreenshot.png" width="100%" class="img-fluid rounded-start " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-6">
           <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
               <strong class="d-inline-block mb-2 text-primary">World</strong>
@@ -99,9 +115,23 @@
 
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="card m-5" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/images/screenshotCQ.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
               <strong class="d-inline-block mb-2 text-success">Design</strong>
               <h3 class="mb-0">Post title</h3>
@@ -119,7 +149,7 @@
               </svg>
 
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
