@@ -60,6 +60,11 @@ a:hover {
   
 }
 
+.name {
+  font-family: 'Libre Baskerville', serif;
+  
+}
+
 
 /* 
 #002f4b,#dc4225 
@@ -109,3 +114,4 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
     flex-wrap: wrap;
   }
 }
+
