@@ -1,7 +1,8 @@
 # Portfolio-Update
 
--https://github.com/warrenhaskins1/Portfolio-Update
--
+- https://github.com/warrenhaskins1/Portfolio-Update
+
+- https://warrenhaskins1.github.io/Portfolio-Update/
 
 
 # Description
@@ -15,4 +16,4 @@
 
 ## License
 
--[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
